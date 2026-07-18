@@ -55,7 +55,7 @@ export default function AboutPage() {
                 />
               </div>
               <div className="absolute inset-0 bg-[linear-gradient(90deg,rgba(15,16,35,0.94)_0%,rgba(15,16,35,0.78)_42%,rgba(15,16,35,0.12)_72%)]" />
-              <div className="relative min-h-[760px] px-6 py-12 sm:min-h-[860px] sm:px-10 sm:py-16 lg:flex lg:min-h-[960px] lg:items-center lg:px-14">
+              <div className="relative min-h-[760px] px-6 py-12 max-lg:flex max-lg:flex-col sm:min-h-[860px] sm:px-10 sm:py-16 lg:flex lg:min-h-[960px] lg:items-center lg:px-14">
                 <div className="max-w-xl lg:w-[50%]">
                   <p className="text-xs font-bold uppercase tracking-[0.24em] text-accent">About Me</p>
                   <h2 className="mt-5 text-balance text-3xl font-semibold leading-tight text-white sm:text-4xl md:text-5xl">
@@ -70,16 +70,16 @@ export default function AboutPage() {
                       Contact Me
                     </ButtonLink>
                   </div>
-                  <div className="mt-10 flex h-[520px] w-full items-end justify-center sm:mt-12 sm:h-[620px] md:h-[720px] lg:hidden">
-                    <Image
-                      src="/images/founder-premium-cutout-original.png"
-                      alt="Sayyid Muhammed Adil Farhan, Founder & Creative Director of FIRNADIQ GRAPHICS"
-                      width={1206}
-                      height={1600}
-                      priority
-                      className="h-full w-full object-contain object-bottom"
-                    />
-                  </div>
+                </div>
+                <div className="relative mt-10 flex h-[660px] w-full shrink-0 items-end justify-center self-center sm:mt-12 sm:h-[780px] md:h-[900px] lg:hidden">
+                  <Image
+                    src="/images/founder-premium-cutout-original.png"
+                    alt="Sayyid Muhammed Adil Farhan, Founder & Creative Director of FIRNADIQ GRAPHICS"
+                    width={1206}
+                    height={1600}
+                    priority
+                    className="h-full w-[90%] object-contain object-bottom"
+                  />
                 </div>
               </div>
             </div>
