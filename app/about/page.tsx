@@ -75,8 +75,8 @@ export default function AboutPage() {
                   <Image
                     src="/images/founder-premium-cutout-original.png"
                     alt="Sayyid Muhammed Adil Farhan, Founder & Creative Director of FIRNADIQ GRAPHICS"
-                    width={1206}
-                    height={1600}
+                    width={1506}
+                    height={1900}
                     priority
                     className="h-full w-full object-contain object-bottom"
                   />
