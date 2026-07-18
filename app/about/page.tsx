@@ -78,7 +78,7 @@ export default function AboutPage() {
                     width={1506}
                     height={1900}
                     priority
-                    className="h-full w-full object-contain object-bottom"
+                    className="h-full w-[98%] object-contain object-bottomscale-[1.35]"
                   />
                 </div>
               </div>
