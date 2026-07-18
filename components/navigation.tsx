@@ -42,7 +42,7 @@ export function Navigation() {
         >
           <span className="relative h-[48px] w-[170px] shrink-0 md:h-[55px] md:w-[200px] xl:h-[65px] xl:w-[240px]">
             <Image
-              src="/images/firnadiq-navbar-logo-light.png"
+              src="/images/firnadiq-navbar-logo-light-transparent.png"
               alt="FIRNADIQ GRAPHICS logo"
               fill
               priority

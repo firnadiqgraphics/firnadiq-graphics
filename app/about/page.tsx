@@ -71,14 +71,14 @@ export default function AboutPage() {
                     </ButtonLink>
                   </div>
                 </div>
-                <div className="relative mt-10 flex h-[660px] w-full shrink-0 items-end justify-center self-center sm:mt-12 sm:h-[780px] md:h-[900px] lg:hidden">
+                <div className="relative mt-2 flex h-[760px] w-full shrink-0 items-end justify-center self-center sm:mt-6 sm:h-[780px] md:h-[900px] lg:hidden">
                   <Image
                     src="/images/founder-premium-cutout-original.png"
                     alt="Sayyid Muhammed Adil Farhan, Founder & Creative Director of FIRNADIQ GRAPHICS"
                     width={1206}
                     height={1600}
                     priority
-                    className="h-full w-[90%] object-contain object-bottom"
+                    className="h-full w-[98%] object-contain object-bottom"
                   />
                 </div>
               </div>
