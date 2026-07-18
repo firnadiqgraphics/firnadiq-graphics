@@ -44,7 +44,7 @@ export default function AboutPage() {
                 priority
                 className="absolute inset-0 h-full w-full object-cover object-center"
               />
-              <div className="absolute bottom-0 right-0 z-0 h-[72%] w-[88%] sm:h-[86%] sm:w-[68%] lg:h-[94%] lg:w-[50%]">
+              <div className="absolute bottom-0 right-0 z-0 hidden h-[94%] w-[50%] lg:block">
                 <Image
                   src="/images/founder-premium-cutout-original.png"
                   alt="Sayyid Muhammed Adil Farhan, Founder & Creative Director of FIRNADIQ GRAPHICS"
@@ -69,6 +69,16 @@ export default function AboutPage() {
                     <ButtonLink href="/contact" variant="secondary">
                       Contact Me
                     </ButtonLink>
+                  </div>
+                  <div className="mt-10 flex h-[520px] w-full items-end justify-center sm:mt-12 sm:h-[620px] md:h-[720px] lg:hidden">
+                    <Image
+                      src="/images/founder-premium-cutout-original.png"
+                      alt="Sayyid Muhammed Adil Farhan, Founder & Creative Director of FIRNADIQ GRAPHICS"
+                      width={1206}
+                      height={1600}
+                      priority
+                      className="h-full w-full object-contain object-bottom"
+                    />
                   </div>
                 </div>
               </div>
